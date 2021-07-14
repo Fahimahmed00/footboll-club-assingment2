@@ -9,10 +9,18 @@
 
 
 .container{
-   display: flex;
-   justify-content: space-around;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* position: absolute;
+    top: 0px;
+    */
 }
-
+main{
+    width: 90%;
+    margin: 85px 52px;
+    padding: 0px 125px;
+}
 
 header{
     background-color: #2d25a0ec;
@@ -24,16 +32,18 @@ header{
 .head-banner img{
    height: 438px;
    width: 556.0103149414062px;
+   
 }
 
 .banner-items{
     height: 230px;
     width: 485px;
-    left: 156px;
-    top: 207px;
+   
     color: #ffffffe3;
     font-size: 64px;
     text-transform: uppercase;
+    position: relative;
+
 }
 
  button{
@@ -60,15 +70,15 @@ header{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 24px;  
-    margin: 85px 115px; 
+    /* margin: 85px 150px ;  */
  }
 
  .player{
         width: 330px;
         height: 486px;   
         margin: 20px 1px;
+
         background-color: white;
-       
         padding: 15px ;
         box-shadow: 1px 1px  8px 5px rgba(128, 128, 128, 0.2);
     }
@@ -158,4 +168,22 @@ header{
     text-align: center;
     margin-bottom: 40px;
     font-size: 18px;
+}
+
+
+
+
+
+
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer  .header{
+        display: none;
+    }
+    
 }
