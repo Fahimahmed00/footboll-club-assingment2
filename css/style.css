@@ -18,8 +18,8 @@
 }
 main{
     width: 90%;
-    margin: 85px 52px;
-    padding: 0px 125px;
+    margin: 85px 72px;
+    padding: 0px 136px;
 }
 
 header{
@@ -37,7 +37,7 @@ header{
 .banner-items{
     height: 156px;
     width: 485px;
-    color: #ffffffe3;
+    color: #ffffff;
     font-size: 64px;
     text-transform: uppercase;
     position: relative;
