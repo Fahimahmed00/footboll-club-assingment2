@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+ 
+ *{ font-family: 'Poppins', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }  
+ 
+
+
+.container{
+   display: flex;
+   justify-content: space-around;
+}
+
+
+header{
+    background-color: #2d25a0ec;
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    
+}
+.head-banner img{
+   height: 438px;
+   width: 556.0103149414062px;
+}
+
+.banner-items{
+    height: 230px;
+    width: 485px;
+    left: 156px;
+    top: 207px;
+    color: #ffffffe3;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+ button{
+ background-color:#E02C6D;
+ color: #FFFFFF;
+ font-size: 16px;
+ padding: 8px;
+ cursor: pointer;
+ transition: .5s;
+ }
+
+ button:hover{
+    padding: 10px;
+    color: black;
+    box-shadow:1px 2px 20px 2px rgb(224, 205, 255);
+ }  
+ 
+ /* main */
+
+
+            
+ .players{
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;  
+    margin: 85px 115px; 
+ }
+
+ .player{
+        width: 330px;
+        height: 486px;   
+        margin: 20px 1px;
+        background-color: white;
+       
+        padding: 15px ;
+        box-shadow: 1px 1px  8px 5px rgba(128, 128, 128, 0.2);
+    }
+
+ .player-banner img{
+    width:99%;
+    height: 256px;
+ }
+
+         /* details player */
+ .player-info{
+    width: 300px;
+    height: 140px; 
+ } 
+ .player-name{
+    font-size: 28px;
+    padding:  10x;
+ }
+ .player-details{
+    font-size: 16px;
+    text-align: left;
+    padding: 4px 0px;
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+                     /* footer */
+
+ footer{
+   width: 100%;
+   height: auto;
+   margin:  0 px;
+   padding: 0px 0px;
+ }                     
+                  
+                /* footer logo */
+ .logo img{
+    height: 110px;
+    width: 483px;
+    margin-left: 29%;
+ }
+               /* footer social icon */
+
+
+
+.social-icon {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.social-icon ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+.social-icon ul li{
+    display: inline-block;
+    margin: 1%;
+    font-size: 32px;
+    color:black;
+}
+.i-colori{
+    color:#ee227089 ;
+}
+.i-colorf{
+    color:  #3b5998;
+}
+.i-colort{
+    color: #00acee;
+}
+.i-colory{
+    color: #FF0000;
+}
+
+          /*****  footer copyright  ********/
+
+   .copyright-text{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
